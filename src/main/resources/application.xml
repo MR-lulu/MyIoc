@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="tom" class="pojo.User">
+        <property name="name" value="tom"></property>
+        <property name="address" ref="address"></property>
+    </bean>
+    <bean id="bob" class="pojo.User">
+        <property name="name" value="bob"></property>
+        <property name="address" ref="address"></property>
+    </bean>
+    <bean id="address" class="pojo.Address">
+        <property name="city" value="fuzhou"></property>
+    </bean>
+</beans>
